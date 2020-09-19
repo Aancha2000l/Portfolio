@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    
+<!--contactinfo-->
+<div class="container">
+    <h2>Get Connected</h2>
+    <form action="contact.php" method="post"></form>
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox">               
+                    <input type="text" name="firstname" required>
+                    <span class="text">First Name</span>
+                    <span class="line"></span>             
+            </div>
+        </div>
+        <div class="col">
+            <div class="inputBox">               
+                    <input type="text" name="lastname" required>
+                    <span class="text">Last Name</span>
+                    <span class="line"></span>             
+            </div>
+        </div>
+    </div>
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox">               
+                    <input type="email" name="email" required>
+                    <span class="text">E-Mail</span>
+                    <span class="line"></span>             
+            </div>
+        </div>
+        <div class="col">
+            <div class="inputBox">               
+                    <input type="text" name="mobile" required >
+                    <span class="text"> Phone number</span>  
+                    <span class="line"></span>           
+            </div>
+        </div>
+    </div>
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox textarea">               
+                    <input type="text" name="message" id="" cols="30" rows="10" required></input>
+                    <span class="text">Type your message here...</span>
+                    <span class="line"></span>             
+            </div>
+        </div>
+    </div>
+    <div class="row100">
+        <div class="col">
+            <input type="submit" value="send message" >
+        </div>
+    </div>
+</form>
+</div>
+
+</body>
+</html>
